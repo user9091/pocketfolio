@@ -2,6 +2,8 @@
 
 An interactive, responsive recreation of the Game Boy–inspired portfolio shown in the referenced X post.
 
+![Pocketfolio desktop preview](assets/pocketfolio-preview.png)
+
 ## Credit
 
 Design reference and inspiration: [original tweet by @Angaisb_](https://x.com/Angaisb_/status/2095964361105789424?s=20).
