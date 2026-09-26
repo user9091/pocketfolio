@@ -6,7 +6,7 @@ An interactive, responsive recreation of the Game Boy–inspired portfolio shown
 
 ## Credit
 
-Design reference and inspiration: [original tweet by @Angaisb_](https://x.com/Angaisb_/status/2095964361105789424?s=20).
+Design reference: [original tweet by @Angaisb_](https://x.com/Angaisb_/status/2095964361105789424?s=20).
 
 This recreation is an independent implementation created for demonstration purposes.
 
