@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pocketfolio — a tiny interactive portfolio with big ideas." />
+  <title>Pocketfolio — Small screen. Big ideas.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="screen-fixes.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Pocketfolio home"><span class="brand-mark"><i></i><i></i><i></i></span>pocketfolio<span class="brand-dot">.</span></a>
+    <span class="edition">01&nbsp;&nbsp; / &nbsp;&nbsp;POCKETFOLIO&nbsp;&nbsp; PROJECT</span>
+    <a class="availability" href="mailto:hello@pocketfolio.dev"><span></span> OPEN FOR NEW PROJECTS</a>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p class="eyebrow"><span>□</span> THE POCKET EDITION</p>
+      <h1>Small screen.<br><em>Big ideas.</em></h1>
+      <p class="lede">A designer &amp; developer<br>who thinks a lot in small spaces.<br>Welcome to my little world.</p>
+      <div class="location"><span class="cross">+</span><div><b>MILO BENNETT</b><small>BASED IN BRISTOL, UK</small></div></div>
+      <p class="explore">Made to be explored.<svg viewBox="0 0 95 44" aria-hidden="true"><path d="M3 6c20 39 58 31 79 11M74 12l10 5-4 10"/></svg></p>
+    </section>
+
+    <section class="console-wrap" aria-label="Interactive portfolio console">
+      <div class="console-shadow"></div>
+      <div class="console">
+        <div class="top-ridge"><span></span><i></i><b></b></div>
+        <div class="side-ridges"></div>
+        <div class="screen-shell">
+          <div class="screen-header"><span>DOT MATRIX WITH STEREO SOUND</span><i></i></div>
+          <div class="power"><i></i><span>BATTERY</span></div>
+          <div class="screen" id="screen" aria-live="polite"></div>
+        </div>
+        <div class="console-name"><strong>pocket</strong><span>INTERACTIVE PORTFOLIO</span></div>
+        <div class="controls">
+          <div class="dpad" aria-label="Navigation pad">
+            <button class="up" data-nav="up" aria-label="Previous item"></button><button class="left" data-nav="left" aria-label="Previous page"></button><i></i><button class="right" data-nav="right" aria-label="Next page"></button><button class="down" data-nav="down" aria-label="Next item"></button>
+          </div>
+          <div class="action-buttons"><div><button data-action="b" aria-label="Back"></button><span>B</span></div><div><button data-action="a" aria-label="Select"></button><span>A</span></div></div>
+        </div>
+        <div class="lower">
+          <div class="pills"><button data-action="select"></button><button data-action="start"></button><span>SELECT</span><span>START</span></div>
+          <div class="speaker" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+      </div>
+      <button class="sound-toggle" id="soundToggle" type="button" aria-label="Mute sound" aria-pressed="false">SOUND&nbsp; ON</button>
+    </section>
+
+    <aside class="guide">
+      <div class="guide-head"><span>HOW TO PLAY</span><i>⌄</i></div>
+      <div class="guide-item"><b>✣</b><p><strong>Find your way</strong><small>Use the cross to move around.</small></p></div>
+      <div class="guide-item"><b>◎</b><p><strong>Take a look</strong><small>Press A to open something.</small></p></div>
+      <div class="guide-item"><b>◌</b><p><strong>Go back a little</strong><small>Press B to return.</small></p></div>
+      <div class="guide-item"><b>⌁</b><p><strong>Make yourself at home</strong><small>There's no rush here.</small></p></div>
+      <div class="guide-note"><span>▧</span><p><em>A little side quest?</em><small>Try the keys on your keyboard.</small></p></div>
+    </aside>
+  </main>
+  <footer class="credit">
+    Design reference: <a href="https://x.com/Angaisb_/status/2095964361105789424?s=20" target="_blank" rel="noopener noreferrer">original tweet by @Angaisb_</a>
+  </footer>
+  <div class="grain"></div>
+  <script src="app.js"></script>
+</body>
+</html>

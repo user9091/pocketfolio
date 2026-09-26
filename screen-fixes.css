@@ -1,0 +1,12 @@
+/* Readable pixel UI and audible-control affordance. */
+.sound-toggle{position:absolute;right:1%;bottom:-5%;border:0;background:transparent;color:#83877f;font:500 6px DM Mono,monospace;letter-spacing:.13em;cursor:pointer}
+.sound-toggle:before{content:"";display:inline-block;width:5px;height:5px;margin-right:6px;border-radius:50%;background:#77953f;box-shadow:0 0 0 3px rgba(119,149,63,.12)}
+.sound-toggle[aria-pressed="true"]:before{background:#aaa;box-shadow:none}
+.boot h2{font-size:38px}.boot p{font-size:8px}.boot .load{height:4px;width:82px}
+.game{padding:9px 11px}.status{font-size:7px;font-weight:500;padding-bottom:5px}
+.profile{grid-template-columns:46px 1fr;gap:9px;padding:10px 0 8px}.avatar{width:42px;height:42px}
+.profile h2{font-size:17px;line-height:.92;margin-bottom:6px}.profile p{font-size:7px;line-height:1.35}
+.menu button{padding:6px 7px;font-size:8px;cursor:pointer}.footer-screen{font-size:6px;font-weight:500}
+.detail{padding:10px 11px}.detail h3{font-size:15px;line-height:1.05;margin:10px 0 6px}.detail p{font-size:7px;line-height:1.5}
+.detail .big{font-size:17px;line-height:1.08}.detail .tag{font-size:6px;padding:3px 5px;margin-top:8px}
+.contact h3{font-size:17px}.contact button{font-size:7px;padding:7px 11px;margin-top:9px;cursor:pointer}
